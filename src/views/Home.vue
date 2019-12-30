@@ -375,21 +375,21 @@
             <li>
               <img class="flag" src="./../assets/img/list_default.png" />
               <h4>
-                <a href="case_content_01.html">Facebook 重大改版背后，揭晓了2019年的4个关键设计趋势</a>
+                <router-link to="/casecontent01">Facebook 重大改版背后，揭晓了2019年的4个关键设计趋势</router-link>
               </h4>
               <div class="date">2019-05-24</div>
             </li>
             <li>
               <img class="flag" src="./../assets/img/list_default.png" />
               <h4>
-                <a href="case_content_02.html">卡片分类法八大步骤，帮你确定产品信息架构</a>
+                <router-link to="/casecontent02">卡片分类法八大步骤，帮你确定产品信息架构</router-link>
               </h4>
               <div class="date">2019-05-21</div>
             </li>
             <li>
               <img class="flag" src="./../assets/img/list_default.png" />
               <h4>
-                <a href="case_content_03.html">科普！前端开发、交互、视觉是怎么分工合作的？</a>
+                <router-link to="/casecontent03">科普！前端开发、交互、视觉是怎么分工合作的？</router-link>
               </h4>
               <div class="date">2018-03-28</div>
             </li>

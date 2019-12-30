@@ -3,6 +3,9 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import WorkUi from "../views/WorkUi.vue";
 import Design from "../views/Design.vue";
+import CaseContent01 from "../views/cases/CaseContent01.vue";
+import CaseContent02 from "../views/cases/CaseContent02.vue";
+import CaseContent03 from "../views/cases/CaseContent03.vue";
 
 Vue.use(VueRouter);
 
@@ -21,6 +24,21 @@ const routes = [
     path: "/design",
     name: "design",
     component: Design
+  },
+  {
+    path: "/casecontent01",
+    name: "CaseContent01",
+    component: CaseContent01
+  },
+  {
+    path: "/casecontent02",
+    name: "CaseContent02",
+    component: CaseContent02
+  },
+  {
+    path: "/casecontent03",
+    name: "CaseContent03",
+    component: CaseContent03
   },
   {
     path: "/about",
