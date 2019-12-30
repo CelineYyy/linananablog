@@ -1,4 +1,14 @@
+
 # llinananablog
+
+## 拉取代码
+```
+git remote add origin https://CelineYyy:密码@github.com/CelineYyy/linananablog.git
+```
+## 提交代码
+```
+git add . && git commit -m "备注,自定义" && git pull && git push
+```
 
 ## Project setup
 ```
